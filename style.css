@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+body {
+	/* background-image: -webkit-linear-gradient(top, #2a81eb, #73a9ec); */
+	/* background-repeat: repeat-x; */
+	background-image: -webkit-linear-gradient(top, #2a81eb, #2a81eb);
+	height: 100%;
+}
+
+body {
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 18px;
+	line-height: 1;
+}
+
+*,
+:after,
+:before {
+	box-sizing: border-box;
+}
+
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+@media (min-width: 768px) {
+	.container {
+		width: 750px;
+	}
+}
+@media (min-width: 992px) {
+	.container {
+		width: 970px;
+	}
+}
+@media (min-width: 1200px) {
+	.container {
+		width: 1170px;
+	}
+}
+
+.center {
+	margin: auto;
+	width: 50%;
+	border: 3px solid green;
+	padding: 10px;
+}
+
+.row {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.row:after,
+.row:before {
+	content: " ";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}
+
+.card {
+	border-radius: 0.8rem;
+	background-color: #d1dded;
+	margin-bottom: 2rem;
+}
+
+.card h2 {
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+.card .card-block {
+	padding: 2rem;
+}
+
+.img-responsive {
+	display: block;
+	max-width: 100%;
+	padding-bottom: 20px;
+	height: auto;
+}
+
+.col-text,
+.col-text-about {
+	position: relative;
+	min-height: 1px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+@media (min-width: 992px) {
+	.col-text,
+	.col-text-about {
+		float: left;
+	}
+	.col-text {
+		width: 33.33333%;
+	}
+	.col-text-about {
+		width: 66.66667%;
+	}
+}
+
+.text-clean {
+	letter-spacing: 1px;
+	line-height: 1.8;
+}
+
+.text-paragraph {
+	text-align: justify;
+	text-indent: 50px;
+}
+
+.text-header {
+	color: aliceblue;
+	text-align: center;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.section {
+	padding: 40px 40px;
+}
+
+.social-buttons a {
+	color: #000;
+}
+.social-buttons a:hover {
+	color: #2a81eb;
+}
+
+.button {
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	border-radius: 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.button-primer {
+	background-color: #73a9ec;
+	color: white;
+	border: 2px solid #2a81eb;
+}
+
+.button-primer:hover {
+	background-color: #2a81eb;
+	color: white;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #1e4372;
+}
+
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 165px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+.topnav a.active {
+	background-color: #000;
+	color: white;
+}
