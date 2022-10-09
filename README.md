@@ -1,2 +1,3 @@
 # CV
-cv
+
+Link https://cv-zekais.netlify.app/
